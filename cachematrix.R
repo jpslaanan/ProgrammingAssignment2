@@ -1,3 +1,6 @@
+## Coursera - R Programming Week 3 Programming Assignment
+## May 14, 2018
+##
 ## These functions are used to compute and cache the inverse of a 
 ## matrix
 
@@ -26,7 +29,7 @@ cacheSolve <- function(x, ...) {
 	## Return a matrix that is the inverse of 'x'
 	inv <- x$getInverse()
 	if (!is.null(inv)) {
-		message("getting cached data")
+		message("Getting Cached Data")
 		return(inv)
 	}
 	mat <- x$get()
